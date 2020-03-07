@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class WeatherService {
-  key = '77894fe46c6e15e96e19dc26cf2dacc1'
+  key = 'your_key' //here you need to useyour own gmail api key
   URI: string = ''
 
   constructor(private http: HttpClient) {}
